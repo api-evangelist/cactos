@@ -1,8 +1,16 @@
 aid: cactos
 name: Cactos
-description: Cactos is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Cactos is a Finnish clean-energy company that designs, manufactures, and operates smart battery
+  energy storage systems (BESS) for commercial, industrial, and grid-scale use. Its hardware line
+  (Cactos Mylo commercial storage and Cactos Cardo backup power, built in part from second-life
+  Tesla EV batteries) is paired with Cactos Spine, a cloud software platform that optimizes each
+  unit for load shifting, peak shaving, demand-charge reduction, solar self-consumption, backup
+  power during outages, and participation in electricity and grid-balancing markets. Cactos serves
+  logistics, manufacturing, EV charging, agriculture, real estate, and commercial-property
+  operators. It is a portfolio company of Union Square Ventures. As of this profile, Cactos
+  publishes no public developer API, SDK, or API documentation; the Cactos Spine app at
+  app.cactos.com is a customer-facing management console rather than a documented developer API.
 url: https://raw.githubusercontent.com/api-evangelist/cactos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,30 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/674b02957275f722dd749506/674b02957275f722dd74955c_cactos-logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Energy
+- Energy Storage
+- Battery
+- Clean Energy
+- Grid
+- Sustainability
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cactos-domain-security.yml
 - type: Website
   url: https://cactos.com
+- type: Pricing
+  url: https://cactos.com/pricing
+- type: Support
+  url: https://cactos.com/support
+- type: Blog
+  url: https://cactos.com/resources
+- type: Login
+  url: https://app.cactos.com
+- type: PrivacyPolicy
+  url: https://cactos.com/privacy-policy
+- type: Partners
+  url: https://cactos.com/become-partner
+- type: Contact
+  url: https://cactos.com/contact
+- type: About
+  url: https://cactos.com/about-us
+- type: News
+  url: https://cactos.com/news
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
